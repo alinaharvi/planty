@@ -1,0 +1,51 @@
+/* GENERAL */
+/* 
+#site-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+} */
+
+/* MENU */
+
+#site-header-inner {
+  margin: 0;
+}
+
+#site-navigation-wrap .dropdown-menu > li > a {
+  font-size: 16px;
+  transition: font-size 0.3s;
+}
+
+#site-navigation-wrap .menu-item:not(.btn):hover a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#site-header #menu-item-29 span.text-wrap {
+  background-color: #dc9f96;
+
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  text-align: center;
+  align-items: center;
+  padding: 0;
+}
+
+#site-header #menu-item-29 span.text-wrap:hover {
+  background-color: #c02e44;
+  font-size: 16px;
+}
+
+.dropdown-menu > li.btn > a > span {
+  height: 80px;
+  width: 236px;
+  display: block;
+}
+
+#site-navigation-wrap {
+  height: 80px;
+}
