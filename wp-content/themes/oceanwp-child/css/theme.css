@@ -1,14 +1,3 @@
-/* GENERAL */
-/* 
-#site-header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-} */
-
-/* MENU */
-
 #site-header-inner {
   margin: 0;
 }
@@ -23,7 +12,7 @@
   font-weight: bold;
 }
 
-#site-header #menu-item-29 span.text-wrap {
+#site-header #menu-item-50 span.text-wrap {
   background-color: #dc9f96;
 
   -webkit-border-radius: 0;
@@ -35,7 +24,7 @@
   padding: 0;
 }
 
-#site-header #menu-item-29 span.text-wrap:hover {
+#site-header #menu-item-50 span.text-wrap:hover {
   background-color: #c02e44;
   font-size: 16px;
 }
@@ -46,6 +35,191 @@
   display: block;
 }
 
+/* HOME PAGE */
+
 #site-navigation-wrap {
   height: 80px;
+}
+
+/* .curvy-container {
+  width: 1140px;
+  height: 555px;
+  padding-top: 70px;
+  background-color: white;
+  border-radius: 50% 50% 0 0 / 100px 100px 0 0;
+} */
+
+.page-id-48 {
+  background-color: #3b8e46;
+}
+
+.quantity-container {
+  background-color: white;
+  border-radius: 5px;
+  height: 56px;
+  width: 82px;
+}
+
+.symbols-container {
+  margin: 0;
+}
+
+.wp-block-button__link {
+  background-color: #dc9f96;
+}
+
+/* .symbols-container button {
+  background-color: #dc9f96;
+} */
+.banner-container {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* border-radius: 0 0 50% 50% / 0 0 50px 50px; */
+  border-bottom: 10px solid #e3d9d0;
+  border-bottom-left-radius: 50% 50px;
+  border-bottom-right-radius: 50% 50px;
+}
+
+.middle-img {
+  position: absolute;
+  z-index: 5;
+}
+
+.right-img {
+  position: relative;
+  z-index: 1;
+}
+
+.home-text-container {
+  background-color: white;
+  padding-bottom: 82px;
+  padding-top: 130px;
+}
+
+.title-gout {
+  padding-top: 58px;
+}
+
+.container-gout-img {
+  padding-top: 50px;
+  max-width: 70% !important;
+}
+
+.img-gout {
+  width: 100%;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.home-btn {
+  padding-top: 57px;
+  padding-bottom: 30px;
+}
+
+.home-btn a {
+  padding: 20px 56px 20px 56px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.testimony-title {
+  margin-top: 133px;
+  margin-bottom: 84px;
+}
+
+.container-gout {
+  border-radius: 0 0 50% 50% / 0 0 15px 15px;
+}
+
+.testimony-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.testimony-inner-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.testimony-img {
+  width: 100%;
+  height: auto;
+}
+
+/* END HOME */
+
+/* NOUS RENCONTRER  */
+
+.nous-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 50% 50% / 0 0 50px 50px;
+  /* padding-left: 150px;
+  padding-right: 300px; */
+}
+
+.nous-container-title {
+  padding-top: 186px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.nous-container-img {
+  position: absolute;
+  z-index: 11;
+}
+
+#wpforms-submit-73 {
+  width: 200px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.contact-form-title {
+  padding-top: 66px;
+}
+
+.contact-form {
+  z-index: 2;
+}
+
+.deco-img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.contact-form-img {
+  position: absolute;
+  top: 446px;
+  left: -97px;
+  z-index: 1;
+  width: 100%;
+  /* max-width: 147px; */
+}
+
+.equipe-img {
+  position: absolute;
+  z-index: 10;
+  top: -219px;
+  left: 550px;
+  width: 100%;
+}
+
+.equipe {
+  gap: 157px;
+  margin-top: 52px;
+  padding-top: 52px;
+  padding-bottom: 80px;
 }
