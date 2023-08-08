@@ -49,21 +49,6 @@
   border-radius: 50% 50% 0 0 / 100px 100px 0 0;
 } */
 
-.page-id-48 {
-  background-color: #3b8e46;
-}
-
-.quantity-container {
-  background-color: white;
-  border-radius: 5px;
-  height: 56px;
-  width: 82px;
-}
-
-.symbols-container {
-  margin: 0;
-}
-
 .wp-block-button__link {
   background-color: #dc9f96;
 }
@@ -109,7 +94,7 @@
 
 .container-gout-img {
   padding-top: 50px;
-  max-width: 70% !important;
+  gap: 30px;
 }
 
 .img-gout {
@@ -120,7 +105,7 @@
 
 .home-btn {
   padding-top: 57px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 }
 
 .home-btn a {
@@ -129,9 +114,9 @@
   font-size: 15px;
 }
 
-.testimony-title {
-  margin-top: 133px;
-  margin-bottom: 84px;
+.testimony-title p {
+  padding: 133px;
+  padding: 84px;
 }
 
 .container-gout {
@@ -142,6 +127,7 @@
   display: flex;
   justify-content: space-between;
   gap: 70px;
+  padding-bottom: 130px;
 }
 
 .testimony-inner-container {
@@ -157,7 +143,9 @@
   height: auto;
 }
 
-/* END HOME */
+.home-title {
+  padding-top: 105px;
+}
 
 /* NOUS RENCONTRER  */
 
@@ -223,3 +211,142 @@
   padding-top: 52px;
   padding-bottom: 80px;
 }
+
+.baner-txt {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  /* position: absolute; */
+  line-height: 15px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-command-imgs {
+  position: relative;
+  overflow: hidden;
+  gap: 26px;
+}
+
+p {
+  margin: 0 !important;
+}
+
+/* .is-style-wide {
+  width: 100%;
+} */
+
+#wpforms-form-93 {
+  position: relative;
+  color: white;
+}
+
+.precommand-form-btn {
+  width: 210px !important;
+  height: 55px !important;
+  text-transform: capitalize !important;
+}
+
+.precommand-form-btn button {
+  word-break: initial !important;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.command-form-1 {
+  margin: 0 auto;
+}
+.wpforms-field-medium {
+  width: 100%;
+  max-width: 383px !important;
+  height: 70px !important;
+}
+
+.wpforms-submit-container {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.command-form-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* COMMANDER */
+
+.page-id-48 {
+  background-color: #3b8e46;
+}
+
+.quantity-container {
+  display: flex;
+  gap: 0;
+  width: fit-content;
+  height: auto;
+}
+
+.symbols-container {
+  margin: 0;
+  background-color: #dc9f96;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 31px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.zero-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  background-color: white;
+  width: 51px !important;
+  height: 56px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: "Inter";
+}
+
+/* .plus-container {
+  border-bottom: white solid 3px;
+} */
+
+.wp-container-content-26 {
+  width: 100%;
+}
+
+.commande-cont-btns {
+  margin-top: 15px;
+  display: flex;
+  gap: 11px;
+}
+
+.command-btn a {
+  /* padding: 10px 40px 10px 40px; */
+  border-radius: 5px;
+  word-break: initial;
+}
+
+/* .command-col {
+  width: 193px;
+} */
