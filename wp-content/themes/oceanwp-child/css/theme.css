@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+#main #content-wrap {
+  padding: 0 !important;
+}
+
 #site-navigation-wrap .dropdown-menu > li > a {
   font-size: 16px;
   transition: font-size 0.3s;
@@ -40,14 +44,6 @@
 #site-navigation-wrap {
   height: 80px;
 }
-
-/* .curvy-container {
-  width: 1140px;
-  height: 555px;
-  padding-top: 70px;
-  background-color: white;
-  border-radius: 50% 50% 0 0 / 100px 100px 0 0;
-} */
 
 .wp-block-button__link {
   background-color: #dc9f96;
@@ -95,12 +91,32 @@
 .container-gout-img {
   padding-top: 50px;
   gap: 30px;
+  width: 70% !important;
 }
 
 .img-gout {
   width: 100%;
   gap: 30px;
   box-sizing: border-box;
+}
+
+.gout-container-4 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 27px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.command-gout-img {
+  width: 193px !important;
+  box-sizing: border-box !important;
+}
+
+.command-gout-img img {
+  max-width: 100%;
+  width: 100%;
 }
 
 .home-btn {
@@ -153,19 +169,26 @@
   display: flex;
   justify-content: center;
   border-radius: 0 0 50% 50% / 0 0 50px 50px;
-  /* padding-left: 150px;
-  padding-right: 300px; */
 }
 
 .nous-container-title {
   padding-top: 186px;
   padding-bottom: 100px;
   justify-content: center;
+  width: 60%;
+}
+
+.nous-subtitle {
+  padding-top: 27px;
+  width: 70%;
 }
 
 .nous-container-img {
   position: absolute;
   z-index: 11;
+  left: -410px;
+  top: 57px;
+  width: 100%;
 }
 
 #wpforms-submit-73 {
@@ -194,22 +217,27 @@
   left: -97px;
   z-index: 1;
   width: 100%;
+  overflow: hidden;
   /* max-width: 147px; */
 }
 
 .equipe-img {
   position: absolute;
   z-index: 10;
-  top: -219px;
-  left: 550px;
+  top: 194px;
+  left: 650px;
   width: 100%;
+  object-fit: cover;
 }
 
 .equipe {
-  gap: 157px;
+  display: flex;
+  justify-content: space-evenly !important;
+  /* gap: 157px; */
   margin-top: 52px;
   padding-top: 52px;
   padding-bottom: 80px;
+  width: 100%;
 }
 
 .baner-txt {
@@ -339,6 +367,8 @@ p {
   margin-top: 15px;
   display: flex;
   gap: 11px;
+  width: 193px;
+  box-sizing: border-box;
 }
 
 .command-btn a {
@@ -347,6 +377,7 @@ p {
   word-break: initial;
 }
 
-/* .command-col {
+.command-col {
   width: 193px;
-} */
+  box-sizing: border-box;
+}
