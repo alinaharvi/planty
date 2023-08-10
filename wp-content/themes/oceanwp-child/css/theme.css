@@ -103,7 +103,7 @@
 .gout-container-4 {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   gap: 27px;
   flex-wrap: wrap;
   align-items: center;
@@ -191,11 +191,12 @@
   width: 100%;
 }
 
-#wpforms-submit-73 {
+/* #wpforms-submit-73 {
   width: 200px;
   height: 55px;
   border-radius: 5px;
-}
+
+} */
 
 .contact-form-title {
   padding-top: 66px;
@@ -203,6 +204,24 @@
 
 .contact-form {
   z-index: 2;
+}
+
+.wpforms-field-large {
+  width: 383px !important;
+  height: 70px !important;
+  border: none !important;
+}
+
+#wpforms-73-field_3 {
+  height: 235px !important;
+}
+
+.contact-btn {
+  width: 200px !important;
+  height: 55px !important;
+  text-transform: capitalize !important;
+  font-size: 15px !important;
+  font-weight: normal !important;
 }
 
 .deco-img-container {
@@ -277,18 +296,20 @@ p {
 
 .precommand-form-btn {
   width: 210px !important;
-  height: 55px !important;
+  height: 60px !important;
   text-transform: capitalize !important;
+  word-break: initial !important;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  margin-top: 40px !important;
 }
 
 .precommand-form-btn button {
-  word-break: initial !important;
-  font-size: 15px;
-  font-weight: normal;
 }
 
 .command-form-1 {
   margin: 0 auto;
+  padding-bottom: 93px;
 }
 .wpforms-field-medium {
   width: 100%;
@@ -320,8 +341,20 @@ p {
 
 .page-id-48 {
   background-color: #3b8e46;
+  color: white !important;
 }
 
+.addres-form label {
+  color: white !important;
+}
+
+.commander-title {
+  padding-top: 70px;
+}
+.commander-subtitle {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .quantity-container {
   display: flex;
   gap: 0;
@@ -372,7 +405,7 @@ p {
 }
 
 .command-btn a {
-  /* padding: 10px 40px 10px 40px; */
+  padding: 20px 40px 20px 40px;
   border-radius: 5px;
   word-break: initial;
 }
