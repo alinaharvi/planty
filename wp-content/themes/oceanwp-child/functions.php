@@ -9,8 +9,11 @@ function my_theme_enqueue_styles() {
 
 function admin_link($items, $args) {
     if  (is_user_logged_in() && $args->menu) {
-$admin_menu_item = '<li><a href="#">Admin</a></li>';
-        $items = $admin_menu_item . $items;
+$admin_menu_item = '<li id="menu-item-admin" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin"><a href="#">Admin</a></li>';
+ $position = strpos($items, '<li id="menu-item-50');
+  if ($position !== false) {
+            $items = substr_replace($items, $admin_menu_item, $position, 0);
+        }
     }
     return $items;
 };

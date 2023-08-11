@@ -89,6 +89,9 @@
 }
 
 .container-gout-img {
+  display: flex;
+  flex-wrap: wrap;
+
   padding-top: 50px;
   gap: 30px;
   width: 70% !important;
@@ -232,12 +235,11 @@
 
 .contact-form-img {
   position: absolute;
-  top: 446px;
-  left: -97px;
+  top: 568px;
+  left: -188px;
   z-index: 1;
   width: 100%;
   overflow: hidden;
-  /* max-width: 147px; */
 }
 
 .equipe-img {
@@ -302,9 +304,6 @@ p {
   font-size: 15px !important;
   font-weight: normal !important;
   margin-top: 40px !important;
-}
-
-.precommand-form-btn button {
 }
 
 .command-form-1 {
@@ -413,4 +412,42 @@ p {
 .command-col {
   width: 193px;
   box-sizing: border-box;
+}
+
+/* Tablet styles (min-width 768px) */
+@media (min-width: 768px) {
+  .container-gout-img {
+    width: 100%;
+  }
+  .img-name-gout {
+    width: 40%;
+    flex: 1;
+    flex-basis: 270px !important;
+    min-height: 196px !important;
+  }
+  .gout-name {
+    font-size: 30px !important;
+  }
+
+  .equipe-img {
+    display: none;
+  }
+
+  .nous-container-img {
+    left: -250px;
+  }
+
+  .gout-container-4 {
+    max-width: 100% !important;
+  }
+}
+
+/* Mobile Phones (Portrait) */
+@media (max-width: 480px) {
+  /* Styles for mobile phones in portrait mode */
+}
+
+/* Mobile Phones (Landscape) and Tablets (Portrait) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Styles for larger smartphones in landscape mode and tablets in portrait mode */
 }
