@@ -155,6 +155,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  gap: 70px;
 }
 
 .testimony-img {
@@ -241,14 +242,17 @@
   width: 100%;
   overflow: hidden;
 }
-
+.equipe-title {
+  padding-top: 100px;
+}
 .equipe-img {
   position: absolute;
   z-index: 10;
-  top: 194px;
-  left: 650px;
-  width: 100%;
+  top: 145px;
+  left: 956px;
+  width: 30%;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .equipe {
@@ -333,13 +337,33 @@ p {
 }
 
 .vertical-line {
-  width: 2px !important;
-  height: 500px;
+  width: 1px !important;
+  height: 433px;
   margin: 0 auto;
   background-color: white;
   border: none;
   position: absolute;
   left: 50%;
+  margin-top: 69px !important;
+}
+
+.fixed-p {
+  position: absolute;
+}
+
+.p1 {
+  left: 10%;
+}
+
+.p2 {
+  left: 50%;
+}
+
+.form-title-container {
+  position: relative;
+  width: 100%;
+  margin-top: 81px;
+  padding-bottom: 5px;
 }
 
 /* .wp-container-74.wp-container-74 {
@@ -450,7 +474,10 @@ p {
   margin-top: 70px !important;
 }
 
-/* Tablet styles (min-width 768px) */
+.testimony-group {
+  gap: 20px;
+}
+
 @media (min-width: 768px) and (max-width: 1120px) {
   .container-gout-img {
     width: 100%;
@@ -458,7 +485,7 @@ p {
   .img-name-gout {
     width: 40%;
     flex: 1;
-    flex-basis: 270px !important;
+    flex-basis: 245px !important;
     min-height: 196px !important;
   }
   .gout-name {
@@ -475,15 +502,270 @@ p {
 
   .gout-container-4 {
     max-width: 100% !important;
+    padding-left: 0;
+    flex-wrap: wrap !important;
+    justify-content: flex-end;
+  }
+
+  .commande-cont-btns {
+    width: 192px;
+    flex-wrap: nowrap !important;
+  }
+
+  .command-col {
+    max-width: 40% !important;
+  }
+
+  .wpforms-field-large {
+    width: 344px !important;
+  }
+
+  .wpforms-one-half {
+    margin-left: 48px !important;
+  }
+
+  .form-title-container {
+    margin-left: -92px;
+  }
+
+  .form-title-container p {
+    font-size: 25px !important;
+  }
+
+  .p2 {
+    left: 67%;
+  }
+
+  .vertical-line {
+    height: 428px;
+    margin-top: 70px !important;
+  }
+
+  .wp-container-74.wp-container-74 p {
+    padding-left: 5px;
+  }
+
+  .commander-subtitle {
+    text-align: center;
   }
 }
-
 /* Mobile Phones (Portrait) */
 @media (max-width: 480px) {
-  /* Styles for mobile phones in portrait mode */
+  .home-main-title {
+    font-size: 20px !important;
+  }
+
+  .middle-img {
+    width: 70%;
+  }
+
+  .title-2 {
+    font-size: 23px !important;
+  }
+
+  .testimony-title {
+    font-size: 23px !important;
+  }
+
+  .home-paragraph {
+    font-size: 15px !important;
+    padding: 10px;
+  }
+
+  .gout-name {
+    font-size: 25px !important;
+  }
+  .testimony-title p {
+    padding: 20px 0 !important;
+  }
+
+  .wp-container-28.wp-container-28 {
+    flex-wrap: wrap !important;
+  }
+  .home-text-container {
+    padding-bottom: 46px;
+    padding-top: 56px;
+  }
+  .equipe-img {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 25px !important;
+  }
+
+  .wpforms-field-large {
+    width: 223px !important;
+    height: 55px !important;
+    border: none !important;
+  }
+
+  .contact-form-img {
+    top: 539px;
+    left: -102px;
+  }
+
+  .nous-container-img {
+    left: -12px;
+    top: 24px;
+    width: 50%;
+  }
+
+  .nous-container-img img {
+    object-fit: cover;
+    width: 113px !important;
+    height: 120px !important;
+  }
+
+  .nous-container-title {
+    width: 100%;
+  }
+
+  .commander-title {
+    font-size: 25px !important;
+  }
+  .commande-cont-btns {
+    flex-wrap: nowrap !important;
+  }
+
+  .wpforms-field-large {
+    width: 135px !important;
+  }
+
+  .wpforms-one-half {
+    margin-left: 40px !important;
+  }
+
+  .form-title-container {
+    margin-left: -39px;
+  }
+
+  .form-title-container p {
+    font-size: 18px !important;
+  }
+
+  .p2 {
+    left: 64%;
+  }
+
+  .vertical-line {
+    height: 381px;
+    margin-top: 75px !important;
+  }
+
+  .wp-container-74.wp-container-74 p {
+    padding-left: 5px;
+  }
+
+  .gout-container-4 {
+    padding-left: 20%;
+  }
+
+  .footer-img {
+    overflow: hidden;
+  }
+  .footer-img img {
+    width: 823px !important;
+    max-width: initial;
+  }
+
+  .addres-form label {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+
+  .commander-subtitle {
+    text-align: center;
+  }
+
+  .testimony-inner-container {
+    gap: 41px;
+    padding-top: 20px;
+  }
+
+  .testimony-container {
+    padding-bottom: 49px;
+  }
 }
 
 /* Mobile Phones (Landscape) and Tablets (Portrait) */
 @media (min-width: 481px) and (max-width: 767px) {
-  /* Styles for larger smartphones in landscape mode and tablets in portrait mode */
+  .home-main-title {
+    font-size: 25px !important;
+  }
+
+  .equipe-img {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 25px !important;
+  }
+
+  .wpforms-field-large {
+    width: 223px !important;
+    height: 55px !important;
+    border: none !important;
+  }
+
+  .contact-form-img {
+    top: 539px;
+    left: -102px;
+  }
+
+  .nous-container-img img {
+    object-fit: cover;
+    width: 113px !important;
+    height: 120px !important;
+  }
+
+  .nous-container-title {
+    width: 100%;
+  }
+
+  .wpforms-field-large {
+    width: 320px !important;
+  }
+
+  .wpforms-one-half {
+    margin-left: 48px !important;
+  }
+
+  .command-form-1 {
+    padding-bottom: 3px;
+  }
+
+  .wp-container-70.wp-container-70 {
+    flex-wrap: wrap !important;
+  }
+
+  .command-col {
+    max-width: 40% !important;
+  }
+
+  .commande-cont-btns {
+    flex-wrap: nowrap !important;
+  }
+
+  .commander-subtitle {
+    text-align: center;
+  }
+
+  .testimony-inner-container {
+    gap: 28px !important;
+  }
+
+  .img-name-gout {
+    width: 50%;
+    flex-basis: 212px !important;
+    min-height: 166px !important;
+  }
+
+  .gout-name {
+    font-size: 23px !important;
+  }
+
+  .container-gout-img {
+    width: 100%;
+  }
 }
