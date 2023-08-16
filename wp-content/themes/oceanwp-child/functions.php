@@ -9,7 +9,7 @@ function my_theme_enqueue_styles() {
 
 function admin_link($items, $args) {
     if  (is_user_logged_in() && $args-> theme_location === 'main_menu') {
-$admin_menu_item = '<li><a href="#">Admin</a></li>';
+$admin_menu_item = '<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Admin</a></li>';
  $position = strpos($items, '<li id="menu-item-50');
   if ($position !== false) {
             $items = substr_replace($items, $admin_menu_item, $position, 0);
@@ -20,7 +20,7 @@ $admin_menu_item = '<li><a href="#">Admin</a></li>';
 
 function admin_link_mobile($items, $args) {
     if  (is_user_logged_in() && $args-> theme_location === 'mobile_menu') {
-$admin_menu_item = '<li><a href="#">Admin</a></li>';
+$admin_menu_item = '<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Admin</a></li>';
  $position = strpos($items, '<li class="btn menu-item menu-item-type-post_type menu-item-object-page');
   if ($position !== false) {
             $items = substr_replace($items, $admin_menu_item, $position, 0);

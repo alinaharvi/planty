@@ -167,6 +167,10 @@
   padding-top: 105px;
 }
 
+.home-btn a:hover {
+  color: white;
+}
+
 /* NOUS RENCONTRER  */
 
 .nous-container {
@@ -454,6 +458,10 @@ p {
 
 .testimony-group {
   gap: 20px;
+}
+
+.command-btn a:hover {
+  color: white;
 }
 
 @media (min-width: 768px) and (max-width: 1120px) {
