@@ -39,6 +39,10 @@
   display: block;
 }
 
+.footer-img {
+  overflow: hidden;
+}
+
 /* HOME PAGE */
 
 #site-navigation-wrap {
@@ -49,9 +53,6 @@
   background-color: #dc9f96;
 }
 
-/* .symbols-container button {
-  background-color: #dc9f96;
-} */
 .banner-container {
   width: 100% !important;
   max-width: 100% !important;
@@ -62,7 +63,6 @@
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  /* border-radius: 0 0 50% 50% / 0 0 50px 50px; */
   border-bottom: 10px solid #e3d9d0;
   border-bottom-left-radius: 50% 50px;
   border-bottom-right-radius: 50% 50px;
@@ -195,13 +195,6 @@
   width: 100%;
 }
 
-/* #wpforms-submit-73 {
-  width: 200px;
-  height: 55px;
-  border-radius: 5px;
-
-} */
-
 .contact-form-title {
   padding-top: 66px;
 }
@@ -258,7 +251,6 @@
 .equipe {
   display: flex;
   justify-content: space-evenly !important;
-  /* gap: 157px; */
   margin-top: 52px;
   padding-top: 52px;
   padding-bottom: 80px;
@@ -270,7 +262,6 @@
   flex-direction: column;
 
   text-align: center;
-  /* position: absolute; */
   line-height: 15px;
   top: 0;
   left: 0;
@@ -290,10 +281,6 @@
 p {
   margin: 0 !important;
 }
-
-/* .is-style-wide {
-  width: 100%;
-} */
 
 #wpforms-form-93 {
   position: relative;
@@ -365,15 +352,6 @@ p {
   margin-top: 81px;
   padding-bottom: 5px;
 }
-
-/* .wp-container-74.wp-container-74 {
-  flex-wrap: nowrap;
-  justify-content: start !important;
-  gap: 197px;
-  padding-left: 172px;
-  width: fit-content;
-  margin-top: 55px;
-} */
 
 .wp-container-74.wp-container-74 p {
   padding-left: 50px;
@@ -548,8 +526,12 @@ p {
   .commander-subtitle {
     text-align: center;
   }
+
+  .testimony-inner-container {
+    gap: 37px;
+  }
 }
-/* Mobile Phones (Portrait) */
+/* Mobile Phones */
 @media (max-width: 480px) {
   .home-main-title {
     font-size: 20px !important;
@@ -663,6 +645,7 @@ p {
 
   .footer-img {
     overflow: hidden;
+    margin-bottom: -30px !important;
   }
   .footer-img img {
     width: 823px !important;
@@ -686,9 +669,12 @@ p {
   .testimony-container {
     padding-bottom: 49px;
   }
+
+  .nous-subtitle {
+    font-size: 18px !important;
+  }
 }
 
-/* Mobile Phones (Landscape) and Tablets (Portrait) */
 @media (min-width: 481px) and (max-width: 767px) {
   .home-main-title {
     font-size: 25px !important;
@@ -749,10 +735,6 @@ p {
 
   .commander-subtitle {
     text-align: center;
-  }
-
-  .testimony-inner-container {
-    gap: 28px !important;
   }
 
   .img-name-gout {
