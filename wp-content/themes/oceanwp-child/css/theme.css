@@ -19,9 +19,6 @@
 #site-header #menu-item-50 span.text-wrap {
   background-color: #dc9f96;
 
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
   border-radius: 0;
   text-align: center;
   align-items: center;
